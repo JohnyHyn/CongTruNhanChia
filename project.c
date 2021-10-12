@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "hamNhan.h"
 
 void cong(int a, int b)
 {
@@ -17,4 +18,10 @@ void main()
     int a = 5, b = 5;
     cong(a, b);
     tru(a, b);
+    nhan(a, b);
 }
+// sự thay đổi từ khi lấy về
+// -> git pull
+// conflict -> sửa cùng 1 file
+
+//
